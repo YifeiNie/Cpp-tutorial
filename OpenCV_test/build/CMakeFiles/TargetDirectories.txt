@@ -1,0 +1,3 @@
+/home/nyf/code/test2/build/CMakeFiles/HELLO_world.dir
+/home/nyf/code/test2/build/CMakeFiles/edit_cache.dir
+/home/nyf/code/test2/build/CMakeFiles/rebuild_cache.dir
