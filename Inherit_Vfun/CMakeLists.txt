@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13) 
 
-set(PROJECT_NAME Inherit)
+set(PROJECT_NAME Inherit_Vfun)
 
 project(${PROJECT_NAME})                  
 
