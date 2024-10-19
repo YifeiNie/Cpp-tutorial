@@ -2,7 +2,7 @@
 #include <testhpp.hpp> //记得加后缀".hpp"
 using namespace std;
 
-// static的成员变量属于类本身，而非属于类的实例
+// 我的理解：static的成员变量属于类本身，而非属于类的实例
 // 因此如果尝试在某个类的实例中修改static的成员变量，则会导致全局的变化，即该类的其他实例的static成员也会同时被修改
 
 class Test{
@@ -21,6 +21,7 @@ public:
     }
 };
 
+
 int Test::b = 2;
 
 int main(){
@@ -31,5 +32,6 @@ int main(){
     cout << Test::a << endl; 
     Test::Print();
     return 0;
-
 }
+
+// 总结一下就是，'.'运算符用于访问对象中的成员，'::'运算符用于访问类中的成员，

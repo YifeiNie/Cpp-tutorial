@@ -1,0 +1,3 @@
+/home/nyf/code/Cpp-tutorial/Inherit/build/CMakeFiles/Inherit.dir
+/home/nyf/code/Cpp-tutorial/Inherit/build/CMakeFiles/edit_cache.dir
+/home/nyf/code/Cpp-tutorial/Inherit/build/CMakeFiles/rebuild_cache.dir

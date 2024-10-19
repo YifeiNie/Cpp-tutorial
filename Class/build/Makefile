@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nyf/code/Test
+CMAKE_SOURCE_DIR = /home/nyf/code/Cpp-tutorial/Class
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nyf/code/Test/build
+CMAKE_BINARY_DIR = /home/nyf/code/Cpp-tutorial/Class/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyf/code/Test/build/CMakeFiles /home/nyf/code/Test/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyf/code/Cpp-tutorial/Class/build/CMakeFiles /home/nyf/code/Cpp-tutorial/Class/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyf/code/Test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nyf/code/Cpp-tutorial/Class/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_world
+# Target rules for targets named Class
 
 # Build rule for target.
-hello_world: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_world
-.PHONY : hello_world
+Class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Class
+.PHONY : Class
 
 # fast build rule for target.
-hello_world/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
-.PHONY : hello_world/fast
+Class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/build
+.PHONY : Class/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello_world"
+	@echo "... Class"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

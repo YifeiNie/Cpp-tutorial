@@ -1,3 +1,3 @@
-/home/nyf/code/Test/build/CMakeFiles/hello_world.dir
-/home/nyf/code/Test/build/CMakeFiles/edit_cache.dir
-/home/nyf/code/Test/build/CMakeFiles/rebuild_cache.dir
+/home/nyf/code/Cpp-tutorial/Class/build/CMakeFiles/Class.dir
+/home/nyf/code/Cpp-tutorial/Class/build/CMakeFiles/edit_cache.dir
+/home/nyf/code/Cpp-tutorial/Class/build/CMakeFiles/rebuild_cache.dir

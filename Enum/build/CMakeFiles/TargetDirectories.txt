@@ -1,0 +1,3 @@
+/home/nyf/code/Cpp-tutorial/Enum/build/CMakeFiles/Enum.dir
+/home/nyf/code/Cpp-tutorial/Enum/build/CMakeFiles/edit_cache.dir
+/home/nyf/code/Cpp-tutorial/Enum/build/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.13)  # 需要的CMake版本
 
-project(hello_world)                  # 工程名，及编译出来的可执行文件叫什么
+set(PROJECT_NAME Class)
+
+project(${PROJECT_NAME})                  # 工程名，及编译出来的可执行文件叫什么
 
 set(CMAKE_CXX_STANDARD 11)            # 设定C++标准，如果是C，则是CMAKE_C_STANDARD
 
@@ -12,4 +14,4 @@ include_directories(${CMAKE_SOURCE_DIR}/core/inc)  # 指定包含的头文件路
 
 file(GLOB src_file ${CMAKE_SOURCE_DIR}/*.cpp) # 使用GLOB命令寻找CMakeLists.txt所在的路径下的全部.cpp文件，并将其路径变量存储到src_file里
 
-add_executable(hello_world ${src_file})  # 将src_file里的文件打包并一起编译为名叫hello_world的可执行文件
+add_executable(${PROJECT_NAME} ${src_file})  # 将src_file里的文件打包并一起编译为名叫Class的可执行文件
