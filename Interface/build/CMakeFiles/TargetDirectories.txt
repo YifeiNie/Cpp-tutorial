@@ -1,0 +1,3 @@
+/home/nyf/code/Cpp-tutorial/Interface/build/CMakeFiles/Interface.dir
+/home/nyf/code/Cpp-tutorial/Interface/build/CMakeFiles/edit_cache.dir
+/home/nyf/code/Cpp-tutorial/Interface/build/CMakeFiles/rebuild_cache.dir
