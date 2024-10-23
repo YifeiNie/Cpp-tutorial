@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Smart_ptr.dir/src/main.cpp.o -o Smart_ptr 
